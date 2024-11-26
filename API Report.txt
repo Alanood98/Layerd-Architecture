@@ -1,0 +1,100 @@
+HTTP (HyperText Transfer Protocol)
+Definition:
+HTTP is a protocol used to transfer data over the web, primarily for accessing and retrieving web pages and other resources.
+
+Features:
+Operates on port 80.
+Stateless communication: Each request is independent.
+Supports methods like GET, POST, PUT, DELETE, and HEAD.
+Transfers data in plain text (not secure).
+
+Advantages:
+Simple and lightweight.
+Suitable for transferring HTML, CSS, JavaScript, and multimedia files.
+Widely supported by all browsers and web servers.
+
+Disadvantages:
+Data is not encrypted, making it vulnerable to interception.
+Not recommended for transmitting sensitive information.
+
+Use Cases:
+Websites that do not require user authentication or data security.
+Blogs, static websites, and general web browsing.
+
+
+HTTPS (HyperText Transfer Protocol Secure)
+Definition:
+HTTPS is a secure version of HTTP that encrypts data using SSL/TLS protocols, ensuring secure communication over the web.
+
+Features:
+Operates on port 443.
+Encrypts data to protect it from eavesdropping and tampering.
+Ensures authenticity through SSL/TLS certificates.
+Widely adopted for secure web applications.
+
+Advantages:
+Ensures confidentiality and integrity of data.
+Essential for websites handling sensitive information, such as login credentials, financial transactions, or personal data.
+Builds trust with users through browser indicators (e.g., padlock icon).
+Disadvantages:
+Slightly higher latency compared to HTTP due to encryption overhead.
+Requires the purchase and renewal of SSL/TLS certificates.
+
+Use Cases:
+E-commerce websites.
+Banking and financial services.
+Web applications requiring user authentication.
+
+
+FTP (File Transfer Protocol)
+Definition:
+FTP is a protocol designed for transferring files between a client and a server over a network.
+
+Features:
+Operates on ports 20 (data transfer) and 21 (command control).
+Supports authentication with username and password.
+Allows for both uploading and downloading files.
+Can operate in two modes: Active and Passive.
+
+Advantages:
+Efficient for bulk file transfers.
+Supports resuming interrupted transfers.
+Widely supported by FTP clients and servers.
+Disadvantages:
+Transfers data and credentials in plain text, making it insecure.
+Vulnerable to attacks like sniffing and spoofing.
+Less commonly used due to the rise of secure alternatives like SFTP and FTPS.
+
+Use Cases:
+Transferring website files to a server.
+Downloading software and updates.
+Archiving and sharing large datasets.
+
+
+ SMTP (Simple Mail Transfer Protocol)
+Definition:
+SMTP is a protocol used for sending emails from a client to a server or between email servers.
+
+Features:
+Operates on ports:
+25 (standard, but often blocked for security).
+465 (for SMTP with SSL encryption).
+587 (for SMTP with STARTTLS encryption).
+Handles outgoing mail only.
+Works with other protocols like IMAP or POP for retrieving emails.
+
+
+Advantages:
+Standardized and widely supported.
+Reliable for sending emails across domains.
+Can be secured with encryption protocols like STARTTLS or SSL.
+Disadvantages:
+Does not handle email retrieval; requires IMAP or POP for that.
+Plain SMTP (unencrypted) is vulnerable to eavesdropping and tampering.
+
+Use Cases:
+Sending transactional and marketing emails.
+Email servers for communication between domains.
+Automated email notifications.
+
+
